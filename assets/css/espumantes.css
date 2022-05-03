@@ -16,9 +16,13 @@ body{
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:center;
   height: 100vh;
   margin-left: -700px;
+}
+
+.contenedor2{
+  margin-top: 0px;
 }
 
 .contenedor figure{
