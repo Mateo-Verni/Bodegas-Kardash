@@ -5,15 +5,18 @@
 }
 
 body{
-    background-color: #0e101f;
+    background-image: url(/assets/multimedia/nebula_purple_glitter_95894_1920x1080.jpg);
+    background-size: auto;
+  
 }
 
 .titulos-nav{
     color: azure;
     text-align: center;
-    font-family: 'IM Fell DW Pica SC', serif;
-    margin-top: 55px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 35px;
     box-shadow: 0 0px 5px;
+    font-size: 35px;
 }
 
 .vino1{
@@ -52,13 +55,15 @@ p{
     padding: 0;
     color: rgb(172, 25, 25);
     width: 30vw;
-    padding: 0.5%;
+    padding: 3%;
+    padding-left: 7%;
 }
 
 
 .card-item img{
-    background-color: rgb(172, 25, 25);
-    padding: 1em;
+    background-color: rgb(5, 26, 46);
+    padding: 0.3em;
+    
 }
 
 .redes{
@@ -84,7 +89,7 @@ i:hover{
 }
 
 footer{
-    margin-top: 130px;
+    margin-top: 45px;
     margin-left: 850px;
 }
 
@@ -157,7 +162,7 @@ footer{
   background-color: orange;
   height: 20vh;
   
-  @media (min-width: 992px) {
+    @media (min-width: 992px) {
     height: auto;
   }
   
@@ -181,4 +186,8 @@ footer{
 
 ul{
   list-style-type: none;
+}
+
+h2{
+  color: white;
 }
