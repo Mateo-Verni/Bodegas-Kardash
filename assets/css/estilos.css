@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --theme-color: white;
+  --primary-color: rgb(231, 45, 45);
+  --secundary-color: yellow;
+  --text-color-inverse: white;
+  --text-color: black;
+  --navbar-shallow-color: whitesmoke;
+  --menu-mobile-background-color: grey;
+}
+
+.tituloprincipal {
+  margin-left: 120px;
+  margin-top: -100px;
+  font-size: 50px;
+}
+
+.copavino {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+body {
+  font-family: font-family "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+header nav ul a {
+  font-weight: bold;
+  background-color: white;
+  color: #da2710;
+  padding: 0.1em;
+  border-radius: 10px;
+  -webkit-transition: ease-in-out 0.0001s;
+  transition: ease-in-out 0.0001s;
+}
+
+nav a:hover {
+  background-color: #da2710;
+  color: black;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+main {
+  height: 1024px;
+  background-image: url(/assets/multimedia/nebula_purple_glitter_95894_1920x1080.jpg);
+  background-size: 125rem;
+}
+
+article {
+  color: white;
+  background-color: none;
+}
+
+h1 {
+  font-size: 50px;
+  position: flex;
+  margin-left: 50px;
+}
+
+p {
+  font-size: 25px;
+  margin-left: 25px;
+  text-align: left;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-container__header {
+  padding: 2rem;
+}
+
+.grid-container__text {
+  padding: 0 2rem;
+}
+
+h2 {
+  margin: 20px;
+  text-align: center;
+  padding-top: -20px;
+}
+
+.item--2 {
+  margin: 60px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.video {
+  border: 0.05cm solid black;
+  border-bottom: 0.2cm;
+}
+
+/* Media for >600px */
+@media (max-width: 950px) {
+  .grid-container {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
