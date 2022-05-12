@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(/assets/multimedia/nebula_purple_glitter_95894_1920x1080.jpg);
+    background-image: url(/assets/multimedia/road_marking_cloudy_124093_1920x1080.jpg);
     background-size: auto;
   
 }
@@ -93,6 +93,11 @@ footer{
     margin-left: 850px;
 }
 
+article{
+  padding-top: 100px;
+  padding-left: 100px;
+  
+}
 
 .grid {
   
@@ -190,4 +195,35 @@ ul{
 
 h2{
   color: white;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.texto-grid2{
+  padding-top: 200px;
+}
+
+.valle-de-uco{
+  font-size: 30px;
+  text-align: justify;
+  margin-top: 50px;
+  padding-right: 180px;
+  margin-left: 9px;
+
+}
+
+.titulo-visitanos{
+  font-size: 40px;
+  margin-top: -100px;
+  text-decoration: underline;
+  padding-left: 100px;
+  color: white;
+}
+
+.back-button{
+  margin-left: 300px;
+  
 }
