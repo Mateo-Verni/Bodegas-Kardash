@@ -1,34 +1,64 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/paginas-nav.css">
+    <link rel="stylesheet" href="../assets/css/paginas-nav.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap" rel="stylesheet">
     <title>Visitanos</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <h1 class="titulos-nav">Disfruta de una increible experiencia en nuestros viñedos!</h1>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <img height="50" width="50" src="../assets/multimedia/wine.png" alt="wine" />
+                <div>
+                    Bodegas <br />
+                    Kardash
+                </div>
+            </a>
+            <button class="open-menu" aria-label="Abrir menú">
+                <img src="../assets/multimedia/menu-line.png" alt="Abrir menú" />
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú">
+                    <img src="../assets/multimedia/close-icon.png" height="20" width="20" alt="Cerrar menú" />
+                </button>
+                <li><a href="./pages/tintos.html">Tintos</a></li>
+                <li><a href="./pages/blanco.html">Blancos</a></li>
+                <li><a href="./pages/espumantes.html">Espumantes</a></li>
+                <li><a href="./pages/visitanos.html">Visitanos</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
         </nav>
     </header>
     <main class="grid-container2">
         <article class="mapa1">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d426765.59764622094!2d-69.31570042627767!3d-33.316038111513656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1svalle%20de%20uco%20mendoza!5e0!3m2!1ses-419!2sar!4v1652368556779!5m2!1ses-419!2sar" width="800" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d426765.59764622094!2d-69.31570042627767!3d-33.316038111513656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1svalle%20de%20uco%20mendoza!5e0!3m2!1ses-419!2sar!4v1652368556779!5m2!1ses-419!2sar"
+                width="800" height="650" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </article>
         <article class="texto-grid2">
             <h1 class="titulo-visitanos">VALLE DE UCO</h1>
             <p class="valle-de-uco">
-                Bodegas Kardash, nuestra bodega en Los Chacayes, Valle de Uco, es aquella en donde elaboramos nuestros vinos ícono. Te invitamos a visitar nuestro viñedo, a conocer el terroir único que nos rodea y mientras caminamos por la finca, te contamos sobre la vid y nuestras técnicas de manejo agronómico. Luego, hacemos un recorrido por la bodega, en donde te mostramos el proceso de elaboración y crianza de nuestros mejores vinos. Terminamos con una degustación de alguna de nuestras selecciones especiales, a elección.</p>
-                <input class="back-button" type="button" value="Volver al menu" onClick="history.go(-1);">
-            </article>
+                Bodegas Kardash, nuestra bodega en Los Chacayes, Valle de Uco, es aquella en donde elaboramos nuestros
+                vinos ícono. Te invitamos a visitar nuestro viñedo, a conocer el terroir único que nos rodea y mientras
+                caminamos por la finca, te contamos sobre la vid y nuestras técnicas de manejo agronómico. Luego,
+                hacemos un recorrido por la bodega, en donde te mostramos el proceso de elaboración y crianza de
+                nuestros mejores vinos. Terminamos con una degustación de alguna de nuestras selecciones especiales, a
+                elección.</p>
+            <input class="back-button" type="button" value="Volver al menu" onClick="history.go(-1);">
+        </article>
     </main>
     <footer>
-            
+
     </footer>
 </body>
+
 </html>

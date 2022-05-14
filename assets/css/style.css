@@ -43,14 +43,14 @@ header nav ul a {
 }
 
 nav a:hover {
-  background-color: #da2710;
+  background-color: #0d45be;
   color: black;
   transform: translateY(-2px);
 }
 
 main {
   height: 1024px;
-  background-image: url(/assets/multimedia/starry_sky_night_trees_133346_1920x1080.jpg);
+  background-image: url(../multimedia/starry_sky_night_trees_133346_1920x1080.jpg);
   background-size: 125rem;
 }
 

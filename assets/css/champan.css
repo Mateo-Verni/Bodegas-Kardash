@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 .grid-container {
     display: grid;
     background-color: rgb(255, 255, 255);
@@ -13,7 +15,7 @@
 }
 
 .grid-container div {
-    background-color: #0e101f;
+    background-image: url(../multimedia/starry_sky_night_trees_133346_1920x1080.jpg);
     text-align: center;
     color: aliceblue;
     border: 1px solid white;
