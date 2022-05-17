@@ -1,0 +1,22 @@
+{
+  "name": "bodegas-kardash-new---copia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "compile":"node-sass --watch ./assets/scss -o ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mateo-Verni/Bodegas-Kardash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mateo-Verni/Bodegas-Kardash/issues"
+  },
+  "homepage": "https://github.com/Mateo-Verni/Bodegas-Kardash#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

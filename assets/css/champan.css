@@ -5,20 +5,24 @@
 }
 
 
-
 .grid-container {
     display: grid;
     background-color: rgb(255, 255, 255);
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 293px 460px 183px;
     grid-column: 2 / 3;
+    background-image: url(../multimedia/starry_sky_night_trees_133346_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+
 .grid-container div {
-    background-image: url(../multimedia/starry_sky_night_trees_133346_1920x1080.jpg);
     text-align: center;
     color: aliceblue;
-    border: 1px solid white;
+    
+    
+    
 }
 
 .titulo--1{

@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../multimedia/starry_sky_night_trees_133346_1920x1080.jpg);
+    background-size: auto;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.titulos-nav {
+    color: azure;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 35px;
+    box-shadow: 0 0px 5px;
+    font-size: 35px;
+}
+
+.vino1 {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 1px;
+}
+
+.vino2 {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 1px;
+}
+
+.vino3 {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 1px;
+}
+
+p {
+    font-size: 19px;
+    color: white;
+    text-justify: auto;
+    text-align: left;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+}
+
+.card-item {
+    margin: 0;
+    padding: 0;
+    color: rgb(172, 25, 25);
+    width: 30vw;
+    padding: 3%;
+    padding-left: 7%;
+}
+
+
+.card-item img {
+    background-color: rgb(5, 26, 46);
+    padding: 0.3em;
+
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+}
+
+.redes ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+i {
+    color: white;
+    font-size: 2em;
+    padding: 0.5em;
+    transition: ease-in-out .4s;
+}
+
+i:hover {
+    transform: translateY(-2px);
+    filter: drop-shadow(4px 4px #ad0707);
+}
+
+footer {
+    margin-top: 45px;
+    margin-left: 850px;
+}
+
+article {
+    padding-top: 100px;
+    padding-left: 100px;
+
+}
+
+.grid {
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header header header header"
+        "main main main main main main"
+        "sidebar1 sidebar1 sidebar1 sidebar1 sidebar1 sidebar1"
+        "sidebar2 sidebar2 sidebar2 sidebar2 sidebar2 sidebar2"
+        "widgets widgets widgets widgets widgets widgets"
+        "footer footer footer footer footer footer";
+
+    @media (min-width: 500px) {
+        grid-template-columns: 150px 150px 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "header header header header header header"
+            "sidebar1 sidebar1 main main main main"
+            "sidebar2 sidebar2 sidebar2 sidebar2 sidebar2 sidebar2"
+            "widgets widgets widgets widgets widgets widgets"
+            "footer footer footer footer footer footer";
+    }
+
+    @media (min-width: 992px) {
+        grid-template-columns: 150px 150px 1fr 1fr 150px 150px;
+        grid-template-areas:
+            "header header header header header header"
+            "sidebar1 sidebar1 main main sidebar2 sidebar2"
+            "widgets widgets widgets widgets widgets widgets"
+            "footer footer footer footer footer footer";
+    }
+
+}
+
+.header {
+
+    grid-area: header;
+    background-color: rgb(0, 0, 0);
+    height: 6vh;
+
+}
+
+.sidebar1 {
+
+    grid-area: sidebar1;
+    background-color: red;
+    height: 10vh;
+
+    @media (min-width: 500px) {
+        height: auto;
+    }
+
+}
+
+.article {
+
+    grid-area: main;
+    background-color: grey;
+    padding: 1rem;
+
+}
+
+.sidebar2 {
+
+    grid-area: sidebar2;
+    background-color: orange;
+    height: 20vh;
+
+    @media (min-width: 992px) {
+        height: auto;
+    }
+
+}
+
+.widgets {
+
+    grid-area: widgets;
+    background-color: pink;
+    height: 10vh;
+
+}
+
+.footer {
+
+    grid-area: footer;
+    background-color: yellow;
+    height: 5vh;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    color: white;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.texto-grid2 {
+    padding-top: 200px;
+}
+
+.valle-de-uco {
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 50px;
+    padding-right: 180px;
+    margin-left: 9px;
+
+}
+
+.titulo-visitanos {
+    font-size: 40px;
+    margin-top: -100px;
+    text-decoration: underline;
+    padding-left: 100px;
+    color: white;
+}
+
+.back-button {
+    margin-left: 300px;
+
+}
+
+.topheader {
+    box-shadow: 0 4px 5px;
+    background-color: white;
+
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    max-width: 980px;
+    text-align: right;
+    margin-left: 45px;
+
+
+}
+
+/* logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+    font-size: 18px;
+
+}
+
+/* Menu */
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu li {
+    padding: 0 50px;
+
+}
+
+
+.menu a {
+    color: var(--text-color);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 54px;
+    text-transform: uppercase;
+}
+
+.open-menu,
+.close-menu {
+    display: none;
+}
+
+.tituloprincipal {
+    margin-left: 120px;
+    margin-top: -100px;
+    font-size: 50px;
+}
+
+.copavino {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+header nav ul a {
+    font-weight: bold;
+    background-color: white;
+    color: #da2710;
+    padding: 0.1em;
+    border-radius: 10px;
+    transition: ease-in-out 0.0001s;
+}
+
+nav a:hover {
+    background-color: #da2710;
+    color: black;
+    transform: translateY(-2px);
+}
+
+@mixin descripcion{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.descripcion{
+    @include descripcion()
+}

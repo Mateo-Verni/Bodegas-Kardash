@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -39,13 +40,15 @@ header nav ul a {
   color: #da2710;
   padding: 0.1em;
   border-radius: 10px;
+  -webkit-transition: ease-in-out 0.0001s;
   transition: ease-in-out 0.0001s;
 }
 
 nav a:hover {
   background-color: #0d45be;
   color: black;
-  transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
 }
 
 main {
@@ -72,19 +75,17 @@ p {
 }
 
 .grid-container {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
 }
 
 .grid-container__header {
   padding: 2rem;
 }
 
-.grid-container__text {
-  padding: 0 2rem;
-}
-
-h2{
+h2 {
   margin: 20px;
   text-align: center;
   padding-top: -20px;
@@ -92,18 +93,28 @@ h2{
 
 .item--2 {
   margin: 60px;
-  justify-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 
-.video{
-  border: 0.05cm solid black ;
+.video {
+  border: 0.05cm solid black;
   border-bottom: 0.2cm;
 }
 
 /* Media for >600px */
 @media (max-width: 950px) {
   .grid-container {
-    grid-template-columns: repeat(1, 1fr);
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
   }
 }
 
+.descripcion {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 23px;
+  font-family: 'Oswald', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
