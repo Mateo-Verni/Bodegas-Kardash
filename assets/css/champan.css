@@ -4,24 +4,59 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 1920px;
+    height: 823px;
+}
 
 .grid-container {
     display: grid;
     background-color: rgb(255, 255, 255);
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: 293px 460px 183px;
-    grid-column: 2 / 3;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px 515px 220px;
     background-image: url(../multimedia/starry_sky_night_trees_133346_1920x1080.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 
 .grid-container div {
     text-align: center;
     color: aliceblue;
-    
-    
+    border: 2px solid white;
+}
+
+.grid-container elementox {
+    grid-template-columns: 1/4;
+}
+
+.baronb{
+    font-size: 16px;
+    padding-top: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cliqot{
+    font-size: 16px;
+    padding-top: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.perignon{
+    font-size: 16px;
+    padding-top: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pommery{
+    font-size: 16px;
+    padding-top: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
 
@@ -38,8 +73,8 @@
 
 .grid__item {
     width: 100%;
-
 }
+
 
 .grid__img {
     cursor: pointer;
@@ -47,8 +82,12 @@
 }
 
 .grid__item:hover {
-    transform: scale(1.050);
+    transform: scale(1.085);
     transition: all 500ms ease-out;
+}
+
+h1{
+    font-size: 75px;
 }
 
 @media (max-width: 950px) {
